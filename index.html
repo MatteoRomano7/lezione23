@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <h2>Form di Registrazione</h2>
+
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" placeholder="Inserisci il tuo nome">
+            <button onclick="saveName()">Salva</button>
+            <button onclick="removeName()">Rimuovi</button>
+        </div>
+
+        <div>
+            <p>Valore precedentemente salvato:</p>
+            <p id="savedName"></p>
+        </div>
+
+        <h2>Contatore</h2>
+
+        <div>
+            <p>Tempo trascorso (secondi): <span id="counter">0</span></p>
+        </div>
+    </body>
+
+</html>
